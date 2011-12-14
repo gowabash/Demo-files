@@ -1,0 +1,153 @@
+body {
+	background: #cccccc;
+}
+
+#wrapper {
+	overflow: auto;
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	box-shadow: 0px 0px 5px #666666;
+}
+
+#mainHead {
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: grey;
+}
+
+#mainHead h1 {
+	float: left;
+	font-size: 36px;
+	color: white;
+	text-shadow: 0px 1px 0px #000000;
+	line-height: 100px;
+	margin: 0 0 0 20px;
+	width: 400px;
+}
+
+#mainHead #navigation {
+	width: 520px;
+	float: left;
+	padding: 40px 0 0 0;
+}
+
+#mainHead #navigation ul {
+	list-style-type: none;
+	margin: 0 20px 0 0;
+	float: right;
+}
+
+#mainHead #navigation ul li {
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
+	border-right: 1px solid #FFFFFF;
+}
+
+#mainHead #navigation ul li:last-child {
+	border-right: none;
+}
+
+#mainHead #navigation ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mainHead #navigation ul li a:hover {
+	color: #333333;
+	border-bottom: 3px solid #333333;
+}
+
+#main {
+	float: left;
+	width: 940px;
+	margin: 0 0 0 20px;
+}
+
+#main h2 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 20px 0;
+}
+
+#main .mainArticle {
+	float: left;
+	width: 579px;
+	padding: 0 20px 0 0;
+	border-right: 1px solid #CCCCCC;
+}
+
+#main .mainArticle img {
+	float: left;
+	margin: 7px 20px 3px 0;
+}
+
+#main .mainArticle p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+#main .mainArticle p:first-letter {
+	font-size: 48px;
+}
+
+#main .side {
+	float: left;
+	width: 300px;
+	padding: 10px 20px;
+}
+
+#main .side p {
+	margin: 0 0 30px 0;
+}
+
+a.button {
+	background: #CCCCCC;	
+	color: white;
+	text-shadow: 0px 1px 0px #999999;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 8px 12px 7px 12px;
+	text-decoration: none;
+	font-size: 24px;
+	box-shadow: 0px 0px 3px #444;
+	margin: 20px 0 0 0;
+}
+
+a.button:hover {
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#foot {
+	float: left;
+	background: grey;
+	height: 75px;
+	width: 100%;
+}
+
+#foot .footerNav {
+	list-style-type: none;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#foot .footerNav li {
+	float: left;
+	line-height: 75px;
+	margin: 0 5px;
+}
+
+#foot .footerNav li a {
+	color: white;
+	text-decoration: none;
+}
+
+#foot .footerNav li a:hover {
+	color: #333333;
+}

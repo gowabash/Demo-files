@@ -1,0 +1,61 @@
+Git is distributed version control
+
+   *   not SVN. No dIffs are stored. 
+      * Instead every file and tree are hashed and the SHA 1 are stored. Tis makes it fast and efficient
+         * Blh blah blah - only the nerds care about this
+         Practical example
+         Take Joel's zip file. 
+
+         Unzip it
+         Cd to directory
+         Git init <= this will get the directory ready to be tracked. 
+
+         The normal workflow
+         Git add file file file
+         Git status
+         Git diff --cached
+         Git commit (-m if you are lazy)
+
+  Change files
+  Git status
+  Git add
+  Git commit
+
+  Now imagine I wandered to share this with Joel. This would allow him to do the amazingly things that he does.  We are going to use github as out public repo. This will be visible to anyone who want to see / use it
+
+  ***** create repo in github.  Follow directions
+
+  Push changes
+
+
+  Imgine now that I am on Joel's machine. 
+
+  Git clone
+  Have all the file stat I need 
+
+  Add some stuff. Change it.  Update repo. No more file shares!!!
+
+
+  Git pull 
+  Git push
+
+
+  Git log
+
+  Intermediate commands
+  Git branch test
+  Gt branch
+  Git checkout test
+  **** also check how to checkout from remote and create branch
+  Do stuff 
+  Git commit -am 
+
+  Git checkout master 
+  Git merge test
+  Git branch -d test     
+
+
+
+  git checkout -b new_test
+  git push -u origin new_test
+
